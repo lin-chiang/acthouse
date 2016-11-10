@@ -122,7 +122,7 @@ $("#calc").on("click",".news", function(){
 		).done(function(response, textStatus, jqXHR){
 			console.log(response);
 			$("#news").text(response
-				.responseData.feed.entries[0].title)
+				.responseData.feed.entries[3].title)
 			.fadeIn(3000).fadeOut();
 		});
 
