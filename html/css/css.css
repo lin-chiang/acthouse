@@ -1,0 +1,61 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	float: left;
+}
+
+#radius1 {
+	border-radius: 10px;
+}
+#radius2 {
+	border-radius: 50px
+}
+#radius3{
+	height: 50px;
+	border-radius: 50%;
+}
+#radius4{
+	border-radius: 10px 20px 30px 40px;
+}
+#radius5{
+	border-radius: 30px 30px 0 0;
+}
+#radius6{
+	border-radius: 30px 0 0 30px;
+	background-color: pink;
+}
+#radius7{
+	border-radius: 0 30px 30px 0;
+	background-color: red;
+}
+#radius8{
+	border-radius: 10px 20px 30px 40px / 30px 40px 50px 60px;
+}
+#radius9{
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 40px;
+
+}
+#radius10{
+	height: 50px;
+	border-radius: 90px 90px 0 0 ;
+	background-color: purple;
+}
+#radius11{
+	width: 50px;
+	border-radius: 0 90px 90px 0;
+	background-color: green;
+}
+#box-shadow {
+	width: 100%;
+	height: 50px;
+	background-color: lightgreen;
+	box-shadow: 10px 10px 10px 5px #000000 inset;
+	margin-bottom: 24px;
+}
+h1#title {
+	color: aqua;
+	font-size: 3em;
+	text-shadow: 0px 50px 5px black, 100px 0px 0px red, 100px 50px 5px black;
+}

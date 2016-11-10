@@ -1,0 +1,12 @@
+		/*<div>
+			<ul class="inline">
+				<li><a href=#ethan><img src="images/ethan.jpeg" alt="イーサン" width="100" height="100"></a></li>
+				<li><a href=#key><img src="images/keyta.jpeg" alt="きい太" width="100" height="100"></a></li>
+				<li><a href=#hime><img src="images/hime.jpeg" alt="ひめ" width="100" height="100"></a></li>
+				<li><a href=#oreo><img src="images/oreo.jpeg" alt="オレオ" width="100" height="100"></a></li><br>
+				<li><a href=#ethan>イーサン</a></li>
+				<li><a href=#key>きい太</a></li>
+				<li><a href=#hime>ひめ</a></li>
+				<li><a href=#oreo>オレオ</a></li>	
+			</ul>
+		</div>

@@ -1,0 +1,50 @@
+body{
+	background: linear-gradient(to right, red 20%, purple 70%)
+}
+#news{
+	height: 50px;
+	width: 500px;
+	text-align: left;
+	background-color: yellow;
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+#calc{
+	width: 300px;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: lavender;
+	position: relative;
+	z-index: 2;
+}
+#last-answer{
+	background-color: khaki;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	display: none;
+}
+#calc .result{
+	width: 250px;
+	font-size: xx-large;
+	text-align: right;
+	margin: center;
+	font-family: Comic Sans MS;
+}
+#calc button{
+	width: 60px;
+	height: 46px;
+	font-size: x-large;
+	background-color: orange;
+	font-family: fantasy;
+}
+.images{
+	width: 300px;
+	z-index: 1;
+	display: none;
+	position: absolute;
+}
