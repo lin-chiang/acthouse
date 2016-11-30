@@ -1,0 +1,92 @@
+#head{
+	width: 500px;
+	height: 532px;
+	margin: 0 auto;
+}
+
+body{
+	background-color:#BFFFFF;
+}
+
+.title{
+	font-family: "Tsukushi B Round Gothic","筑紫B丸ゴシック"; font-weight: bold;
+	background-color: lightgreen;
+  color: #ffffff ;
+  font-size: 32pt ;
+  line-height: 1;
+  width: 175px;
+  margin:10px 0px;
+  padding: 10px 5px 10px 5px;
+  box-shadow:1px 3px 7px 0px #666666 ;
+  border-top:3px solid #ff6347;
+  border-radius: 5px ;
+  position: relative;, top;
+}
+body{
+	background-image: url(w650x.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	
+	margin: 0 auto;
+}
+
+.breadcrumbs{
+	list-style-type: none;
+
+}
+.breadcrumbs li {
+	display: inline-block;
+		padding-left: 0px;
+}
+
+article p {
+	padding: 1em;
+}
+
+article img{
+	width: auto;
+	height: 100px;
+}
+
+img#showp{
+	width: 600px;
+	height: auto;
+}
+
+img#image{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li.cate{
+	margin-right: 15px;
+	display: inline;
+
+}
+
+#index{
+	text-align: center;
+}
+
+#container{
+	margin: 0 auto;
+	width: 500px;
+}
+
+#container > div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#container >#coment{
+	text-align: left;
+}
+
+#container > #new{
+	text-align: left;
+}
+
+img.prof{
+	width: 200px;
+}
