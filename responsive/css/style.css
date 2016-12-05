@@ -1,0 +1,151 @@
+@charset"UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 24px;
+}
+
+h1{
+	font-size: 48px;
+	line-height: 1;
+}
+
+h2{
+	font-size: 36px;
+	line-height: 1.3333;
+}
+
+h3{
+	font-size: 24px;
+	line-height: 1;
+}
+
+hgroup h2, h4, h5, h6{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header{
+	text-align: center;
+	padding: 24px;
+}
+
+nav ul{/*floatで高さの要素がなくなってしまうので、オーバーフロー費デュンにしとく。*/
+	overflow: hidden;
+}
+
+nav ul li{
+	/*文字を寄せる。フロートで横書き、２５パーで４つをそれぞれ*/
+	width: 25%;
+	float: left;
+}
+
+nav ul li a { 
+	display: block;
+	padding: 12px 0;
+	color: #0002a4;
+}
+
+nav {
+	
+	margin-bottom: 24px;
+	/*background-color: #7d4934;*/
+	/*クロームで動かないときはwebkit*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d4e4ef+0,86aecc+100;Grey+Gloss */
+background: #d4e4ef; /* Old browsers */
+background: -moz-linear-gradient(top, #d4e4ef 0%, #86aecc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d4e4ef 0%,#86aecc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d4e4ef 0%,#86aecc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul li a:hover{
+	color: white;
+	background-color: #d4e4e4;
+}
+
+img#sub {
+	width: 250px; 
+}
+
+#contents{
+	/*モバイル用にサイズを変える*/
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+#contents p {
+	/*文字の幅を持たせる*/
+	margin-bottom: 24px;
+	text-align: left;
+}
+#contents img{
+	/*文字と画像が離れているので、解決する。影をつけるとカッコいいのでつける。*/
+	margin-bottom: 60px;
+	box-shadow: 0 0 12px #000;
+	min-width: 100%;
+	/*min-widthは最低の大きさでも１００％を維持する。*/
+}
+
+footer{
+	color: white;
+	text-align: center;
+	padding: 24px 0;
+	background-color: blue;
+}
+
+@media screen and (min-width: 768px){
+	/*@media screen and minwithで、画面の大きさが768を越えると内容を変える。768は平均的なタブレットの幅を想定。1024以降はパソコン。*/
+	#contents{
+		text-align: left;
+	}
+}
+@media screen and (min-width: 1024px){
+	/*1024を越えると背景にボーダーが出るようにする。全体の指定はHTML。センターにしてるので、左右は余白になる。*/
+	html{
+		background: url(../img/12_col.gif) repeat-y top center;
+		background-size: 93.75%;
+	}
+
+	#contents {
+		overflow: hidden;
+		width: 93.75%; /* 960px/1024px */
+	}
+	#contents #main, #contents #sub{
+		float: left;
+		margin: 0 1.041667%; /* 10px/960px */
+	}
+	#contents #main{
+		width: 64.5833333%; /* 620px/960px */
+	}
+	#contents #sub{
+		width: 31.25%; /* 300px/960px */
+	}
+	nav ul {
+		width: 93.75%;
+		margin: 0 auto;
+	}
+
+	footer{
+		width: 93.75%;
+		padding: 24px 0;
+		margin: 0 auto;
+	}
+
+
+}
